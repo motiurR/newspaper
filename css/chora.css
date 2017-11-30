@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 27, 2017, 3:50:58 PM
+    Author     : John
+*/
+.chora_page .cover_pic{
+    position: relative;
+}
+.chora_page .cover_pic img{
+    width: 100%;
+    height: 300px;
+}
+.chora_page .cover_pic .cover_title{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+.chora_page .cover_pic .cover_title h2{
+    color: #FFEA00;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: default;
+}
+.chora_page .chora_body{
+    background-image: url('../images/sahitto2.png');
+    background-size: 100% 100%; 
+}
+.chora_page .chora_body .chora_body_content{
+    margin-top: -2px;
+}
+.chora_page .chora_body .chora_body_content h2{
+    color: #FFEA00;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: default;
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    width: 99%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.chora_page .chora_body .chora_body_content .thumbnail_contents{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    margin-top: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.chora_page .chora_body .chora_body_content .thumbnail_contents img{
+    width: 100%;
+    height: 200px;
+    border: 2px solid wheat;
+}
+.chora_page .chora_body .chora_body_content .thumbnail_contents h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.chora_page .chora_body .chora_body_content .thumbnail_contents p{
+    overflow: hidden;
+    font-size: 19px;
+    max-height: 130px;
+    text-align: justify;
+}
+.chora_page .chora_body .chora_body_content .thumbnail_contents p .more_button{
+    border-radius: 0;
+    border: navajowhite;
+    padding: 6px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
+.chora_page .chora_body .chora_body_content .thumbnail_contents p .more_button:active{
+    background-color: white;
+    color: black;
+}
+
+
+.chora_page .chora_body_part_2{
+    background-image: url('../images/sahitto2.png');
+    background-size: 100% 100%; 
+}
+.chora_page .chora_body_part_2 .chora_body_part_content{
+    margin-top: 30px;
+}
+.chora_page .chora_body_part_2 .chora_body_part_content .thumbnail_contents{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.chora_page .chora_body_part_2 .chora_body_part_content .thumbnail_contents img{
+    width: 100%;
+    height: 180px;
+    border: 2px solid wheat;
+}
+.chora_page .chora_body_part_2 .chora_body_part_content .thumbnail_contents .thumbnail_captions{
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 10px;
+}
+.chora_page .chora_body_part_2 .chora_body_part_content .thumbnail_contents .thumbnail_captions h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.chora_page .chora_body_part_2 .chora_body_part_content .thumbnail_contents .thumbnail_captions p{
+    overflow: hidden;
+    font-size: 19px;
+    max-height: 130px;
+    text-align: justify;  
+} 
